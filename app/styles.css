@@ -3,7 +3,6 @@
    ========================================== */
 
 /* --- RESET & FONT --- */
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -95,8 +94,7 @@ body::before {
 }
 
 .title-glow {
-  font-family: 'Monoton', cursive;
-  font-size: clamp(1.8rem, 8vw, 3.5rem); /* lebih fleksibel */
+font-family: var(--font-bebas-neue), sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 8px;
